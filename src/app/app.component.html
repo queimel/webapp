@@ -4,8 +4,8 @@
   </header>
   <nav id="nav" class="navbar navbar-default">
     <ul class="nav navbar-nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Productos</a></li>
+      <li [routerLinkActive]="['active']"><a [routerLink]="['/home']" >Home</a></li>
+      <li [routerLinkActive]="['active']"><a [routerLink]="['/productos']">Productos</a></li>
       <li><a href="#">Crear producto</a></li>
     </ul>
   </nav>
